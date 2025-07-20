@@ -25,7 +25,7 @@ export function HeroSection() {
             <div className="mb-8 animate-fade-in-up">
               <span className="inline-flex items-center gap-2 bg-gradient-to-r from-primary-100 to-accent-100 text-primary-700 text-sm font-bold tracking-wider uppercase px-6 py-3 rounded-full border border-primary-200">
                 <span className="w-2 h-2 bg-primary-500 rounded-full animate-pulse" />
-                Strategic Gifting Platform
+                Corporate Gifting Leader
               </span>
             </div>
 
@@ -40,15 +40,15 @@ export function HeroSection() {
                   <span className="text-white font-bold text-xl">🎁</span>
                 </div>
               </span>{' '}
-              BEST FRIEND{' '}
+              BEST GIFTING{' '}
               <span className="inline-block w-12 h-12 bg-gradient-to-br from-secondary-400 to-secondary-500 rounded-full align-middle ml-4 flex items-center justify-center">
-                <span className="text-white text-2xl">❤️</span>
+                <span className="text-white text-2xl">🚀</span>
               </span>
             </h1>
             
             {/* Subheadline */}
             <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-2xl mx-auto lg:mx-0 animate-fade-in-up font-medium leading-relaxed" style={{ animationDelay: '0.1s' }}>
-              Building stronger relationships through strategic gifting. Boost employee engagement, increase customer retention, and accelerate sales pipelines.
+              Strategic corporate gifting that builds stronger relationships. Boost employee engagement by 31%, increase customer retention by 25%, and accelerate sales pipelines.
             </p>
 
             {/* CTA Buttons */}
@@ -76,29 +76,29 @@ export function HeroSection() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-lg mx-auto lg:max-w-none">
               {/* Card 1 */}
               <div className="bg-gradient-to-br from-secondary-400 to-secondary-500 p-6 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300 cursor-pointer">
-                <div className="text-4xl mb-4">📈</div>
-                <h3 className="text-xl font-bold mb-2">LEARN HOW TO SCALE BUSINESS</h3>
-                <p className="text-secondary-100 mb-4 font-medium">Proven strategies for growth</p>
+                <div className="text-4xl mb-4">🎯</div>
+                <h3 className="text-xl font-bold mb-2">EMPLOYEE ENGAGEMENT</h3>
+                <p className="text-secondary-100 mb-4 font-medium">Boost retention & satisfaction</p>
                 <div className="bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 text-sm font-bold inline-block">
-                  Read Article
+                  Learn More
                 </div>
               </div>
 
               {/* Card 2 */}
               <div className="bg-white border-2 border-gray-100 p-6 rounded-3xl shadow-xl transform hover:scale-105 transition-all duration-300 cursor-pointer">
                 <div className="w-16 h-16 bg-gradient-to-br from-accent-400 to-accent-500 rounded-full flex items-center justify-center mb-4">
-                  <span className="text-white font-bold text-2xl">$1M</span>
+                  <span className="text-white font-bold text-lg">31%</span>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-2">ROI Generated</h3>
-                <p className="text-gray-600 font-medium">Average customer ROI</p>
+                <h3 className="text-xl font-bold text-gray-900 mb-2">Engagement Boost</h3>
+                <p className="text-gray-600 font-medium">Average improvement</p>
               </div>
 
               {/* Card 3 - Full Width */}
               <div className="md:col-span-2 bg-gradient-to-r from-primary-500 to-primary-600 p-8 rounded-3xl text-white shadow-xl">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className="text-2xl font-bold mb-2">BASIC NUTRITION MEAL PLAN</h3>
-                    <p className="text-primary-100 font-medium">Customized corporate gift packages</p>
+                    <h3 className="text-2xl font-bold mb-2">CURATED GIFT COLLECTIONS</h3>
+                    <p className="text-primary-100 font-medium">From premium swag to luxury experiences</p>
                   </div>
                   <div className="text-right">
                     <div className="text-3xl font-black">250K+</div>
@@ -109,7 +109,7 @@ export function HeroSection() {
                   variant="secondary" 
                   className="mt-6 bg-white text-primary-600 hover:bg-gray-100 font-bold rounded-full px-6 py-2"
                 >
-                  Shop Now →
+                  Browse Gifts →
                 </Button>
               </div>
             </div>

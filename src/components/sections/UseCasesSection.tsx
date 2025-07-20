@@ -107,38 +107,38 @@ export function UseCasesSection() {
         <div className="text-center mb-16">
           <div className="inline-block bg-gradient-to-r from-primary-100 to-secondary-100 text-primary-700 text-sm font-bold tracking-wider uppercase px-6 py-3 rounded-full border border-primary-200 mb-8">
             <span className="w-2 h-2 bg-primary-500 rounded-full animate-pulse inline-block mr-2" />
-            Well Groomed Business Solutions
+            Strategic Corporate Gifting
           </div>
           
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight">
-            WELL GROOMED{' '}
+            CURATED GIFT{' '}
             <span className="bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent">
-              PET COLLECTION
+              COLLECTIONS
             </span>
           </h2>
           
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto font-medium">
-            Our comprehensive collection of corporate gifting solutions for every team and business need.
+            Our comprehensive collection of corporate gifting solutions designed for every team and business objective.
           </p>
         </div>
 
         {/* Colorful Business Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           <div className="bg-gradient-to-br from-primary-400 to-primary-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
-            <div className="text-5xl mb-4">🐦</div>
-            <h3 className="text-2xl font-black mb-2">AFRICAN MACAW</h3>
+            <div className="text-5xl mb-4">🎁</div>
+            <h3 className="text-2xl font-black mb-2">PREMIUM GIFTS</h3>
             <p className="text-primary-100 font-medium">Employee Engagement Solutions</p>
           </div>
           
           <div className="bg-gradient-to-br from-accent-400 to-accent-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
-            <div className="text-5xl mb-4">🐕</div>
-            <h3 className="text-2xl font-black mb-2">SPANISH BULLDOG</h3>
+            <div className="text-5xl mb-4">🎯</div>
+            <h3 className="text-2xl font-black mb-2">SWAG STORES</h3>
             <p className="text-accent-100 font-medium">Customer Loyalty Programs</p>
           </div>
           
           <div className="bg-gradient-to-br from-secondary-400 to-secondary-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
-            <div className="text-5xl mb-4">🐶</div>
-            <h3 className="text-2xl font-black mb-2">SPANIEL DOG</h3>
+            <div className="text-5xl mb-4">🚀</div>
+            <h3 className="text-2xl font-black mb-2">SALES GIFTS</h3>
             <p className="text-secondary-100 font-medium">Sales Pipeline Acceleration</p>
           </div>
         </div>
@@ -257,25 +257,25 @@ export function UseCasesSection() {
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center">
-                  <div className="text-3xl mb-2">🍽️</div>
-                  <div className="font-bold text-sm">GROOMING</div>
+                  <div className="text-3xl mb-2">🎁</div>
+                  <div className="font-bold text-sm">GIFTING</div>
                 </div>
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center">
-                  <div className="text-3xl mb-2">🏥</div>
-                  <div className="font-bold text-sm">HEALTH</div>
+                  <div className="text-3xl mb-2">📈</div>
+                  <div className="font-bold text-sm">GROWTH</div>
                 </div>
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center">
-                  <div className="text-3xl mb-2">🍖</div>
-                  <div className="font-bold text-sm">FEEDING</div>
+                  <div className="text-3xl mb-2">🤝</div>
+                  <div className="font-bold text-sm">RELATIONSHIPS</div>
                 </div>
                 <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center">
-                  <div className="text-3xl mb-2">❤️</div>
-                  <div className="font-bold text-sm">LOVE</div>
+                  <div className="text-3xl mb-2">🚀</div>
+                  <div className="font-bold text-sm">SUCCESS</div>
                 </div>
               </div>
               
               <h3 className="text-3xl lg:text-4xl font-black mb-4">
-                GET OUR ASSISTANCE TO BENEFIT YOUR BUSINESS
+                TRANSFORM YOUR BUSINESS RELATIONSHIPS
               </h3>
               <p className="text-xl text-accent-100 mb-8 max-w-2xl mx-auto font-medium">
                 Join thousands of companies already using RidgeGap to build stronger relationships through strategic gifting.

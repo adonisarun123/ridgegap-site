@@ -47,6 +47,38 @@ const supportLinks = [
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
+      {/* Colorful Top Section */}
+      <div className="bg-gradient-to-r from-gray-800 to-gray-900 py-12">
+        <div className="container-main">
+          <div className="grid grid-cols-2 md:grid-cols-6 gap-6 text-center">
+            <div className="bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-3xl mb-2">🎁</div>
+              <div className="font-black text-sm">GIFTING</div>
+            </div>
+            <div className="bg-gradient-to-br from-secondary-500 to-secondary-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-3xl mb-2">📈</div>
+              <div className="font-black text-sm">GROWTH</div>
+            </div>
+            <div className="bg-gradient-to-br from-accent-500 to-accent-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-3xl mb-2">🤝</div>
+              <div className="font-black text-sm">RELATIONSHIPS</div>
+            </div>
+            <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-3xl mb-2">❤️</div>
+              <div className="font-black text-sm">LOVE</div>
+            </div>
+            <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-3xl mb-2">🎯</div>
+              <div className="font-black text-sm">SUCCESS</div>
+            </div>
+            <div className="bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+              <div className="text-3xl mb-2">🚀</div>
+              <div className="font-black text-sm">GROWTH</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="container-main">
         <div className="py-16 lg:py-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12">

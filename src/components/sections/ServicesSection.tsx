@@ -5,10 +5,10 @@ import { Button } from '@/components/ui/Button'
 
 export function ServicesSection() {
   const services = [
-    { icon: '🎁', name: 'Gift Curation', description: 'Expert selection of premium gifts' },
-    { icon: '📦', name: 'Fulfillment', description: 'Global shipping and logistics' },
-    { icon: '🛍️', name: 'Swag Stores', description: 'Branded merchandise solutions' },
-    { icon: '📊', name: 'Analytics', description: 'Real-time tracking and insights' }
+    { icon: '🎁', name: 'New Joiner Kits', description: 'Welcome packages for new employees' },
+    { icon: '📦', name: 'Curated Gift Boxes', description: 'Premium gift collections' },
+    { icon: '👕', name: 'Custom Apparels', description: 'Branded t-shirts and clothing' },
+    { icon: '💎', name: 'Luxury Gifting', description: 'Executive and CXO gifts' }
   ]
 
   return (
@@ -18,14 +18,14 @@ export function ServicesSection() {
           {/* Left - Services List */}
           <div>
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-8 leading-tight">
-              HOW WE SERVE OUR{' '}
+              OUR PRODUCT{' '}
               <span className="bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent">
-                BUSINESS PARTNERS
+                CATEGORIES
               </span>
             </h2>
             
             <p className="text-lg text-gray-600 mb-8 font-medium">
-              Building and nurturing business for your clients, partners, and employees with comprehensive gifting solutions.
+              We offer a comprehensive range of 5000+ innovative products across multiple categories to suit all your corporate gifting needs and budgets.
             </p>
 
             {/* Services List */}
@@ -69,39 +69,39 @@ export function ServicesSection() {
 
             {/* Category Cards Grid */}
             <div className="grid grid-cols-2 gap-4">
-              {/* Tech Card */}
+              {/* Apparels Card */}
               <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
                 <div className="text-center">
-                  <div className="text-3xl mb-2">💻</div>
-                  <div className="font-black text-lg">TECH</div>
-                  <div className="text-xs text-blue-100 font-medium">Startups & Tech Companies</div>
+                  <div className="text-3xl mb-2">👕</div>
+                  <div className="font-black text-lg">APPARELS</div>
+                  <div className="text-xs text-blue-100 font-medium">T-shirts, Shirts & Clothing</div>
                 </div>
               </div>
 
-              {/* Finance Card */}
+              {/* Backpacks Card */}
               <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
                 <div className="text-center">
-                  <div className="text-3xl mb-2">💰</div>
-                  <div className="font-black text-lg">FINANCE</div>
-                  <div className="text-xs text-green-100 font-medium">Financial Services</div>
+                  <div className="text-3xl mb-2">🎒</div>
+                  <div className="font-black text-lg">BACKPACKS</div>
+                  <div className="text-xs text-green-100 font-medium">Corporate Bags & Laptop Bags</div>
                 </div>
               </div>
 
-              {/* Healthcare Card */}
+              {/* Technology Card */}
               <div className="bg-gradient-to-br from-red-500 to-red-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
                 <div className="text-center">
-                  <div className="text-3xl mb-2">🏥</div>
-                  <div className="font-black text-lg">HEALTHCARE</div>
-                  <div className="text-xs text-red-100 font-medium">Medical & Wellness</div>
+                  <div className="text-3xl mb-2">📱</div>
+                  <div className="font-black text-lg">TECH GADGETS</div>
+                  <div className="text-xs text-red-100 font-medium">Electronics & Accessories</div>
                 </div>
               </div>
 
-              {/* Enterprise Card */}
+              {/* Drinkware Card */}
               <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-6 text-white shadow-xl transform hover:scale-105 transition-all duration-300">
                 <div className="text-center">
-                  <div className="text-3xl mb-2">🏭</div>
-                  <div className="font-black text-lg">ENTERPRISE</div>
-                  <div className="text-xs text-purple-100 font-medium">Large Corporations</div>
+                  <div className="text-3xl mb-2">☕</div>
+                  <div className="font-black text-lg">DRINKWARE</div>
+                  <div className="text-xs text-purple-100 font-medium">Mugs, Bottles & Flasks</div>
                 </div>
               </div>
             </div>

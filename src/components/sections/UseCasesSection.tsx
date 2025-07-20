@@ -24,8 +24,8 @@ const useCases = [
     description: 'Make appreciation part of your culture, not a once-a-year event. RidgeGap helps companies automate meaningful gifting moments that drive retention, collaboration and connection.',
     icon: <UserGroupIcon className="w-8 h-8" />,
     emoji: '🎁',
-    bgColor: 'bg-blue-600',
-    borderColor: 'border-blue-600',
+    bgGradient: 'bg-gradient-to-br from-secondary-400 to-secondary-600',
+    borderColor: 'border-secondary-600',
     features: [
       'Recipients choose the gift they love',
       'Automate corporate business gifts for birthdays, anniversaries, onboarding and more',
@@ -44,8 +44,8 @@ const useCases = [
     description: 'Acquiring customers is hard. Keeping them is harder. RidgeGap helps organizations create unforgettable moments that turn customers into brand advocates.',
     icon: <HeartIcon className="w-8 h-8" />,
     emoji: '💝',
-    bgColor: 'bg-pink-600',
-    borderColor: 'border-pink-600',
+    bgGradient: 'bg-gradient-to-br from-primary-400 to-primary-600',
+    borderColor: 'border-primary-600',
     features: [
       'Celebrate customer milestones and renewals with gifts and swag',
       'Automate customer loyalty gifting across CRM workflows',
@@ -63,8 +63,8 @@ const useCases = [
     description: 'Standing out in a crowded inbox is getting harder and harder. RidgeGap\'s platform helps revenue teams break through, drive engagement, and close deals faster.',
     icon: <RocketLaunchIcon className="w-8 h-8" />,
     emoji: '🚀',
-    bgColor: 'bg-yellow-600',
-    borderColor: 'border-yellow-600',
+    bgGradient: 'bg-gradient-to-br from-accent-400 to-accent-600',
+    borderColor: 'border-accent-600',
     features: [
       'Send personalized gifts or swag to warm up cold leads',
       'Incentivize meeting attendance & follow-up',
@@ -82,7 +82,7 @@ const useCases = [
     description: 'RidgeGap makes it easy to build gifting into your platform, program, or experience. Drive loyalty, engagement, and new revenue streams while we handle the logistics.',
     icon: <CodeBracketIcon className="w-8 h-8" />,
     emoji: '🔗',
-    bgColor: 'bg-green-600',
+    bgGradient: 'bg-gradient-to-br from-green-400 to-green-600',
     borderColor: 'border-green-600',
     features: [
       'Flexible API',
@@ -101,35 +101,63 @@ export function UseCasesSection() {
   const activeUseCase = useCases.find(useCase => useCase.id === activeTab)
 
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-gradient-to-br from-gray-50 via-white to-primary-50">
       <div className="container-main">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Over <span className="bg-gradient-to-r from-primary-600 to-blue-600 bg-clip-text text-transparent">250,000 Gift Options</span>
+          <div className="inline-block bg-gradient-to-r from-primary-100 to-secondary-100 text-primary-700 text-sm font-bold tracking-wider uppercase px-6 py-3 rounded-full border border-primary-200 mb-8">
+            <span className="w-2 h-2 bg-primary-500 rounded-full animate-pulse inline-block mr-2" />
+            Well Groomed Business Solutions
+          </div>
+          
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight">
+            WELL GROOMED{' '}
+            <span className="bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent">
+              PET COLLECTION
+            </span>
           </h2>
-          <div className="flex justify-center mb-8">
-            <Button href="/gifts" size="lg" className="bg-primary-600 hover:bg-primary-700">
-              Start Gifting Today →
-            </Button>
+          
+          <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto font-medium">
+            Our comprehensive collection of corporate gifting solutions for every team and business need.
+          </p>
+        </div>
+
+        {/* Colorful Business Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+          <div className="bg-gradient-to-br from-primary-400 to-primary-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+            <div className="text-5xl mb-4">🐦</div>
+            <h3 className="text-2xl font-black mb-2">AFRICAN MACAW</h3>
+            <p className="text-primary-100 font-medium">Employee Engagement Solutions</p>
+          </div>
+          
+          <div className="bg-gradient-to-br from-accent-400 to-accent-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+            <div className="text-5xl mb-4">🐕</div>
+            <h3 className="text-2xl font-black mb-2">SPANISH BULLDOG</h3>
+            <p className="text-accent-100 font-medium">Customer Loyalty Programs</p>
+          </div>
+          
+          <div className="bg-gradient-to-br from-secondary-400 to-secondary-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
+            <div className="text-5xl mb-4">🐶</div>
+            <h3 className="text-2xl font-black mb-2">SPANIEL DOG</h3>
+            <p className="text-secondary-100 font-medium">Sales Pipeline Acceleration</p>
           </div>
         </div>
 
         {/* Tabs */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 mb-12">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
           {useCases.map((useCase) => (
             <button
               key={useCase.id}
               onClick={() => setActiveTab(useCase.id)}
-              className={`p-4 lg:p-6 rounded-xl text-left transition-all duration-300 ${
+              className={`p-6 rounded-2xl text-left transition-all duration-300 transform hover:scale-105 ${
                 activeTab === useCase.id 
-                  ? `${useCase.bgColor} text-white shadow-xl scale-105` 
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  ? `${useCase.bgGradient} text-white shadow-2xl scale-105` 
+                  : 'bg-white border-2 border-gray-200 text-gray-700 hover:border-primary-300 shadow-lg'
               }`}
             >
-              <div className="text-2xl lg:text-3xl mb-2">{useCase.emoji}</div>
-              <div className="font-semibold text-sm lg:text-base">{useCase.subtitle}</div>
-              <div className="text-xs lg:text-sm opacity-80">{useCase.title.split('&')[0].trim()}</div>
+              <div className="text-3xl mb-3">{useCase.emoji}</div>
+              <div className="font-bold text-base mb-1">{useCase.subtitle}</div>
+              <div className="text-sm opacity-80 font-medium">{useCase.title.split('&')[0].trim()}</div>
             </button>
           ))}
         </div>
@@ -137,7 +165,7 @@ export function UseCasesSection() {
         {/* Active Use Case Content */}
         {activeUseCase && (
           <div className={`rounded-2xl overflow-hidden shadow-2xl border-4 ${activeUseCase.borderColor}`}>
-            <div className={`${activeUseCase.bgColor} text-white`}>
+            <div className={`${activeUseCase.bgGradient} text-white`}>
               <div className="grid lg:grid-cols-2 gap-8 lg:gap-16">
                 {/* Left Content */}
                 <div className="p-8 lg:p-12">
@@ -225,20 +253,50 @@ export function UseCasesSection() {
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
-            <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-              Ready to Get Started?
-            </h3>
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Join thousands of companies already using RidgeGap to build stronger relationships through thoughtful gifting.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button href="/contact" size="lg">
-                Schedule a Demo
-              </Button>
-              <Button href="/pricing" variant="secondary" size="lg">
-                View Pricing
-              </Button>
+          <div className="bg-gradient-to-r from-accent-400 to-accent-500 rounded-3xl p-8 lg:p-12 text-white shadow-2xl">
+            <div className="max-w-4xl mx-auto">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+                <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center">
+                  <div className="text-3xl mb-2">🍽️</div>
+                  <div className="font-bold text-sm">GROOMING</div>
+                </div>
+                <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center">
+                  <div className="text-3xl mb-2">🏥</div>
+                  <div className="font-bold text-sm">HEALTH</div>
+                </div>
+                <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center">
+                  <div className="text-3xl mb-2">🍖</div>
+                  <div className="font-bold text-sm">FEEDING</div>
+                </div>
+                <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-4 text-center">
+                  <div className="text-3xl mb-2">❤️</div>
+                  <div className="font-bold text-sm">LOVE</div>
+                </div>
+              </div>
+              
+              <h3 className="text-3xl lg:text-4xl font-black mb-4">
+                GET OUR ASSISTANCE TO BENEFIT YOUR BUSINESS
+              </h3>
+              <p className="text-xl text-accent-100 mb-8 max-w-2xl mx-auto font-medium">
+                Join thousands of companies already using RidgeGap to build stronger relationships through strategic gifting.
+              </p>
+              <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <Button 
+                  href="/contact" 
+                  size="lg"
+                  className="bg-white text-accent-600 hover:bg-gray-100 font-bold rounded-full px-8 py-4"
+                >
+                  Book a Schedule 📅
+                </Button>
+                <Button 
+                  href="/pricing" 
+                  variant="secondary" 
+                  size="lg"
+                  className="border-2 border-white text-white hover:bg-white hover:text-accent-600 font-bold rounded-full px-8 py-4"
+                >
+                  View Pricing
+                </Button>
+              </div>
             </div>
           </div>
         </div>

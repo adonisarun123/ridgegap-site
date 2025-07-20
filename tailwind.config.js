@@ -9,16 +9,40 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#0ea5e9', // Primary blue - matches RidgeGap logo
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          300: '#fdba74',
+          400: '#fb923c',
+          500: '#f97316', // Vibrant orange primary
+          600: '#ea580c',
+          700: '#c2410c',
+          800: '#9a3412',
+          900: '#7c2d12',
+        },
+        secondary: {
+          50: '#ecfeff',
+          100: '#cffafe',
+          200: '#a5f3fc',
+          300: '#67e8f9',
+          400: '#22d3ee',
+          500: '#06b6d4', // Vibrant cyan/blue
+          600: '#0891b2',
+          700: '#0e7490',
+          800: '#155e75',
+          900: '#164e63',
+        },
+        accent: {
+          50: '#fefce8',
+          100: '#fef9c3',
+          200: '#fef08a',
+          300: '#fde047',
+          400: '#facc15',
+          500: '#eab308', // Bright yellow
+          600: '#ca8a04',
+          700: '#a16207',
+          800: '#854d0e',
+          900: '#713f12',
         },
         gray: {
           50: '#F9FAFB',
@@ -33,7 +57,7 @@ module.exports = {
           900: '#111827',
         },
         blue: {
-          500: '#3B82F6',
+          500: '#06b6d4',
         },
         green: {
           500: '#10B981',
@@ -44,7 +68,7 @@ module.exports = {
           600: '#DC2626',
         },
         yellow: {
-          500: '#F59E0B',
+          500: '#eab308',
         },
       },
       fontFamily: {

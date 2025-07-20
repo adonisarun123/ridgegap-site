@@ -28,38 +28,36 @@ export function BestProductSection() {
           {/* Right - Content */}
           <div className="text-center lg:text-left">
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight">
-              THE BEST GIFTS{' '}
+              WHY IS CORPORATE{' '}
               <br />
-              FOR{' '}
+              GIFTING SO{' '}
               <span className="relative inline-block">
                 <span className="bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
-                  YOUR
+                  IMPORTANT?
                 </span>
                 <div className="absolute -right-4 -top-2 w-8 h-8 bg-accent-400 rounded-full flex items-center justify-center transform rotate-12">
-                  <span className="text-white text-lg">🎯</span>
+                  <span className="text-white text-lg">💡</span>
                 </div>
-              </span>{' '}
-              <br />
-              BUSINESS RELATIONSHIPS
+              </span>
             </h2>
             
             <p className="text-xl text-gray-600 mb-8 max-w-lg mx-auto lg:mx-0 font-medium leading-relaxed">
-              To generate trust and balanced and healthy business connections, for sustained growth.
+              Corporate gifting is a great way to say "thanks" to employees, clients & partners. It builds goodwill, loyalty, & brand recognition while strengthening relationships.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
-                href="/gifts" 
+                href="/contact" 
                 size="lg"
                 className="bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white font-bold"
               >
-                Order Now 📦
+                Book a Call 📞
               </Button>
               <div className="flex items-center justify-center lg:justify-start gap-2 text-gray-600 font-medium">
                 <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
                   <span className="text-white text-sm">✓</span>
                 </div>
-                <span>Trusted by 5,000+ companies</span>
+                <span>Trusted by 300+ corporate clients</span>
               </div>
             </div>
           </div>

@@ -18,86 +18,89 @@ import {
 
 const useCases = [
   {
-    id: 'employees',
-    title: 'Employee Engagement & Recognition',
+    id: 'newjoiner',
+    title: 'New Joiner Kits',
     subtitle: 'HR Teams',
-    description: 'Make appreciation part of your culture, not a once-a-year event. RidgeGap helps companies automate meaningful gifting moments that drive retention, collaboration and connection.',
+    description: 'Welcome new employees with thoughtfully curated kits that make a great first impression and help them feel valued from day one.',
     icon: <UserGroupIcon className="w-8 h-8" />,
     emoji: '🎁',
     bgGradient: 'bg-gradient-to-br from-secondary-400 to-secondary-600',
     borderColor: 'border-secondary-600',
     features: [
-      'Recipients choose the gift they love',
-      'Automate corporate business gifts for birthdays, anniversaries, onboarding and more',
-      'Control budgets with ease',
-      'Send globally in a few clicks'
+      'Customized welcome packages for new employees',
+      'Brand-aligned gifts that create positive first impressions',
+      'Flexible options to suit different roles and budgets',
+      'Pan India delivery to employee homes'
     ],
     stat: {
-      number: '79%',
-      text: 'of employees say a birthday gift makes them feel appreciated.'
+      number: '200+',
+      text: 'projects completed with excellent customer satisfaction.'
     }
   },
   {
-    id: 'customers',
-    title: 'Customer Loyalty & Activation',
-    subtitle: 'Marketing Teams',
-    description: 'Acquiring customers is hard. Keeping them is harder. RidgeGap helps organizations create unforgettable moments that turn customers into brand advocates.',
-    icon: <HeartIcon className="w-8 h-8" />,
-    emoji: '💝',
+    id: 'giftboxes',
+    title: 'Curated Gift Boxes',
+    subtitle: 'All Teams',
+    description: 'Thoughtfully selected premium gifts packaged beautifully to show appreciation to employees, clients, and business partners.',
+    icon: <GiftIcon className="w-8 h-8" />,
+    emoji: '📦',
     bgGradient: 'bg-gradient-to-br from-primary-400 to-primary-600',
     borderColor: 'border-primary-600',
     features: [
-      'Celebrate customer milestones and renewals with gifts and swag',
-      'Automate customer loyalty gifting across CRM workflows',
-      'Curate on-brand collections and customers can choose their favorite gift'
+      'Hand-picked premium products',
+      'Custom branding and personalization options',
+      'Perfect for festivals, achievements, and milestones',
+      'High-quality packaging that impresses'
     ],
     stat: {
-      number: '73%',
-      text: 'of customers say receiving quality gifts makes them view a brand more favorably.'
+      number: '20K+',
+      text: 'packages delivered safely across India.'
     }
   },
   {
-    id: 'prospects',
-    title: 'Pipeline Acceleration',
-    subtitle: 'Sales Teams',
-    description: 'Standing out in a crowded inbox is getting harder and harder. RidgeGap\'s platform helps revenue teams break through, drive engagement, and close deals faster.',
-    icon: <RocketLaunchIcon className="w-8 h-8" />,
-    emoji: '🚀',
+    id: 'apparels',
+    title: 'Customised T-shirts & Apparels',
+    subtitle: 'Marketing Teams',
+    description: 'Create brand visibility with high-quality customized t-shirts and apparels that employees and clients will love to wear.',
+    icon: <TrophyIcon className="w-8 h-8" />,
+    emoji: '👕',
     bgGradient: 'bg-gradient-to-br from-accent-400 to-accent-600',
     borderColor: 'border-accent-600',
     features: [
-      'Send personalized gifts or swag to warm up cold leads',
-      'Incentivize meeting attendance & follow-up',
-      'Automate gifting for prospects through your sales outreach tools'
+      'High-quality fabric and printing',
+      'Custom logo and design placement',
+      'Wide range of colors and sizes',
+      'Bulk orders with attractive pricing'
     ],
     stat: {
-      number: '25%',
-      text: 'increase in meeting acceptance rates with prospect gifting.'
+      number: '5K+',
+      text: 'innovative products available for customization.'
     }
   },
   {
-    id: 'partners',
-    title: 'Partner Integrations',
-    subtitle: 'Developers',
-    description: 'RidgeGap makes it easy to build gifting into your platform, program, or experience. Drive loyalty, engagement, and new revenue streams while we handle the logistics.',
+    id: 'luxury',
+    title: 'Luxury & CXO Gifting',
+    subtitle: 'Executive Teams',
+    description: 'Premium luxury gifts perfect for C-level executives, important clients, and special business occasions that demand sophistication.',
     icon: <CodeBracketIcon className="w-8 h-8" />,
-    emoji: '🔗',
+    emoji: '💎',
     bgGradient: 'bg-gradient-to-br from-green-400 to-green-600',
     borderColor: 'border-green-600',
     features: [
-      'Flexible API',
-      'Curated gift and swag collections',
-      'Global fulfillment, fully managed'
+      'Premium luxury products and brands',
+      'Elegant packaging and presentation',
+      'Personalized service for high-value clients',
+      'Unique items that leave lasting impressions'
     ],
     stat: {
-      number: '150+',
-      text: 'countries served with global fulfillment network.'
+      number: '10+',
+      text: 'years of experience in corporate gifting industry.'
     }
   }
 ]
 
 export function UseCasesSection() {
-  const [activeTab, setActiveTab] = useState('employees')
+  const [activeTab, setActiveTab] = useState('newjoiner')
   const activeUseCase = useCases.find(useCase => useCase.id === activeTab)
 
   return (
@@ -107,18 +110,18 @@ export function UseCasesSection() {
         <div className="text-center mb-16">
           <div className="inline-block bg-gradient-to-r from-primary-100 to-secondary-100 text-primary-700 text-sm font-bold tracking-wider uppercase px-6 py-3 rounded-full border border-primary-200 mb-8">
             <span className="w-2 h-2 bg-primary-500 rounded-full animate-pulse inline-block mr-2" />
-            Strategic Corporate Gifting
+            Corporate Gifting Solutions
           </div>
           
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 mb-6 leading-tight">
-            CURATED GIFT{' '}
+            CORPORATE GIFTING{' '}
             <span className="bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent">
-              COLLECTIONS
+              SOLUTIONS
             </span>
           </h2>
           
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto font-medium">
-            Our comprehensive collection of corporate gifting solutions designed for every team and business objective.
+            Corporate gifting solution that delivers value to your workforce and clients. We provide a full range of creative solutions to suit all budgets and occasions.
           </p>
         </div>
 
@@ -126,20 +129,20 @@ export function UseCasesSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           <div className="bg-gradient-to-br from-primary-400 to-primary-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
             <div className="text-5xl mb-4">🎁</div>
-            <h3 className="text-2xl font-black mb-2">PREMIUM GIFTS</h3>
-            <p className="text-primary-100 font-medium">Employee Engagement Solutions</p>
+            <h3 className="text-2xl font-black mb-2">NEW JOINER KITS</h3>
+            <p className="text-primary-100 font-medium">Welcome packages for new employees</p>
           </div>
           
           <div className="bg-gradient-to-br from-accent-400 to-accent-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
             <div className="text-5xl mb-4">🎯</div>
-            <h3 className="text-2xl font-black mb-2">SWAG STORES</h3>
-            <p className="text-accent-100 font-medium">Customer Loyalty Programs</p>
+            <h3 className="text-2xl font-black mb-2">CURATED GIFT BOXES</h3>
+            <p className="text-accent-100 font-medium">Thoughtfully selected premium gifts</p>
           </div>
           
           <div className="bg-gradient-to-br from-secondary-400 to-secondary-600 p-8 rounded-3xl text-white shadow-xl transform hover:scale-105 transition-all duration-300">
-            <div className="text-5xl mb-4">🚀</div>
-            <h3 className="text-2xl font-black mb-2">SALES GIFTS</h3>
-            <p className="text-secondary-100 font-medium">Sales Pipeline Acceleration</p>
+            <div className="text-5xl mb-4">👕</div>
+            <h3 className="text-2xl font-black mb-2">CUSTOMISED T-SHIRTS</h3>
+            <p className="text-secondary-100 font-medium">Branded apparel solutions</p>
           </div>
         </div>
 

@@ -15,14 +15,14 @@ export function LearnCardsSection() {
                 <h3 className="text-2xl lg:text-3xl font-black text-gray-900 mb-4 leading-tight">
                   LEARN HOW TO{' '}
                   <span className="bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent">
-                    SCALE GIFTING
+                    BUILD RELATIONSHIPS
                   </span>
                 </h3>
                 <p className="text-gray-600 font-medium mb-6">
-                  Master the art of strategic corporate gifting with our comprehensive guides and best practices.
+                  Corporate gifting is a great way to say "thanks" to employees, clients & partners. And builds goodwill, loyalty, & brand recognition.
                 </p>
                 <Button 
-                  href="/resources" 
+                  href="/blog" 
                   variant="secondary"
                   className="font-bold text-sm"
                 >

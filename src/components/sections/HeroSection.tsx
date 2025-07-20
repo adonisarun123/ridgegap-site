@@ -25,7 +25,7 @@ export function HeroSection() {
             <div className="mb-8 animate-fade-in-up">
               <span className="inline-flex items-center gap-2 bg-gradient-to-r from-primary-100 to-accent-100 text-primary-700 text-sm font-bold tracking-wider uppercase px-6 py-3 rounded-full border border-primary-200">
                 <span className="w-2 h-2 bg-primary-500 rounded-full animate-pulse" />
-                Corporate Gifting Leader
+                #1 Corporate Gifting Solutions
               </span>
             </div>
 
@@ -34,21 +34,21 @@ export function HeroSection() {
               YOUR{' '}
               <span className="relative inline-block">
                 <span className="bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent">
-                  BUSINESS'S
+                  #1 SOURCE
                 </span>
                 <div className="absolute -right-6 -top-6 w-16 h-16 bg-gradient-to-br from-accent-400 to-accent-500 rounded-full flex items-center justify-center transform rotate-12 shadow-lg">
                   <span className="text-white font-bold text-xl">🎁</span>
                 </div>
               </span>{' '}
-              BEST GIFTING{' '}
-              <span className="inline-block w-12 h-12 bg-gradient-to-br from-secondary-400 to-secondary-500 rounded-full align-middle ml-4 flex items-center justify-center">
-                <span className="text-white text-2xl">🚀</span>
+              FOR CUSTOMIZED CORPORATE{' '}
+              <span className="bg-gradient-to-r from-secondary-500 to-secondary-600 bg-clip-text text-transparent">
+                GIFTING SOLUTIONS
               </span>
             </h1>
             
             {/* Subheadline */}
             <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-2xl mx-auto lg:mx-0 animate-fade-in-up font-medium leading-relaxed" style={{ animationDelay: '0.1s' }}>
-              Strategic corporate gifting that builds stronger relationships. Boost employee engagement by 31%, increase customer retention by 25%, and accelerate sales pipelines.
+              The Perfect Corporate Gift Makes Anyone Feel Special – Gifting Solutions for Employees, Clients and Business Partners to recognise and reward success in the workplace.
             </p>
 
             {/* CTA Buttons */}
@@ -122,34 +122,34 @@ export function HeroSection() {
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary-400 to-primary-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <TrophyIcon className="h-8 w-8 text-white" />
+                  <span className="text-white font-bold text-lg">200+</span>
                 </div>
-                <div className="text-3xl font-black text-gray-900 mb-1">7M+</div>
-                <div className="text-gray-600 font-medium">Gifts Delivered</div>
+                <div className="text-3xl font-black text-gray-900 mb-1">Projects</div>
+                <div className="text-gray-600 font-medium">Completed</div>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-accent-400 to-accent-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <StarIcon className="h-8 w-8 text-white" />
+                  <span className="text-white font-bold text-lg">20K+</span>
                 </div>
-                <div className="text-3xl font-black text-gray-900 mb-1">4.9★</div>
-                <div className="text-gray-600 font-medium">Customer Rating</div>
+                <div className="text-3xl font-black text-gray-900 mb-1">Packages</div>
+                <div className="text-gray-600 font-medium">Delivered</div>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-secondary-400 to-secondary-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <GlobeAltIcon className="h-8 w-8 text-white" />
+                  <span className="text-white font-bold text-lg">5K+</span>
                 </div>
-                <div className="text-3xl font-black text-gray-900 mb-1">150+</div>
-                <div className="text-gray-600 font-medium">Countries</div>
+                <div className="text-3xl font-black text-gray-900 mb-1">Products</div>
+                <div className="text-gray-600 font-medium">Available</div>
               </div>
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-white font-bold text-2xl">🚀</span>
+                  <span className="text-white font-bold text-lg">10</span>
                 </div>
-                <div className="text-3xl font-black text-gray-900 mb-1">31%</div>
-                <div className="text-gray-600 font-medium">Engagement Boost</div>
+                <div className="text-3xl font-black text-gray-900 mb-1">Years</div>
+                <div className="text-gray-600 font-medium">Experience</div>
               </div>
             </div>
           </div>

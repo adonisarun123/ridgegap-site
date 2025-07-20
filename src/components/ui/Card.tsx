@@ -15,10 +15,10 @@ export function Card({
   ...props 
 }: CardProps) {
   const variants = {
-    default: 'bg-white rounded-card shadow-card border border-gray-200',
-    elevated: 'bg-white rounded-card shadow-card-elevated hover:shadow-card-hover transition-shadow duration-300 border border-gray-200',
-    feature: 'bg-white rounded-card shadow-card-elevated hover:shadow-card-hover transition-shadow duration-300 p-8 text-center border border-gray-200',
-    product: 'bg-white rounded-card shadow-card hover:shadow-card-hover transition-shadow duration-300 p-4 border border-gray-200'
+    default: 'bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden',
+    elevated: 'bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 transform hover:scale-105 overflow-hidden',
+    feature: 'bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 p-8 text-center border border-gray-100 transform hover:scale-105 overflow-hidden',
+    product: 'bg-white rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 transform hover:scale-105 overflow-hidden'
   }
 
   return (

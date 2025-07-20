@@ -2,7 +2,7 @@ import { Layout } from '@/components/layout/Layout'
 import { Card } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Input } from '@/components/ui/Input'
-import { Dropdown } from '@/components/ui/Dropdown'
+import { Select } from '@/components/ui/Select'
 import Link from 'next/link'
 
 const companySizes = [
@@ -83,7 +83,7 @@ export default function SignupPage() {
                   <label htmlFor="companySize" className="block text-sm font-medium text-gray-700 mb-2">
                     Company Size
                   </label>
-                  <Dropdown
+                  <Select
                     options={companySizes}
                     placeholder="Select company size"
                     onSelect={() => {}}
